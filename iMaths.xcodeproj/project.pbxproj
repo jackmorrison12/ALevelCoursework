@@ -8,12 +8,16 @@
 
 /* Begin PBXBuildFile section */
 		E00DBDE61D895C5800F24080 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E00DBDE51D895C5800F24080 /* AppDelegate.swift */; };
-		E00DBDE81D895C5800F24080 /* FirstViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E00DBDE71D895C5800F24080 /* FirstViewController.swift */; };
-		E00DBDEA1D895C5800F24080 /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E00DBDE91D895C5800F24080 /* SecondViewController.swift */; };
+		E00DBDE81D895C5800F24080 /* AccountViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E00DBDE71D895C5800F24080 /* AccountViewController.swift */; };
+		E00DBDEA1D895C5800F24080 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E00DBDE91D895C5800F24080 /* HomeViewController.swift */; };
 		E00DBDED1D895C5800F24080 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E00DBDEB1D895C5800F24080 /* Main.storyboard */; };
 		E00DBDEF1D895C5800F24080 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E00DBDEE1D895C5800F24080 /* Assets.xcassets */; };
 		E00DBDF21D895C5800F24080 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E00DBDF01D895C5800F24080 /* LaunchScreen.storyboard */; };
 		E00DBDFD1D895C5800F24080 /* iMathsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E00DBDFC1D895C5800F24080 /* iMathsTests.swift */; };
+		E052FCB41D94551600D58089 /* libsqlite3.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = E052FCB31D94551600D58089 /* libsqlite3.tbd */; };
+		E0A49FB21D8B10A500B12825 /* OnTheGoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0A49FB11D8B10A500B12825 /* OnTheGoViewController.swift */; };
+		E0A49FB41D8B10F400B12825 /* LeaderboardViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0A49FB31D8B10F400B12825 /* LeaderboardViewController.swift */; };
+		E0A49FB61D8B110400B12825 /* SettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0A49FB51D8B110400B12825 /* SettingsViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -29,8 +33,8 @@
 /* Begin PBXFileReference section */
 		E00DBDE21D895C5800F24080 /* iMaths.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = iMaths.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E00DBDE51D895C5800F24080 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		E00DBDE71D895C5800F24080 /* FirstViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstViewController.swift; sourceTree = "<group>"; };
-		E00DBDE91D895C5800F24080 /* SecondViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondViewController.swift; sourceTree = "<group>"; };
+		E00DBDE71D895C5800F24080 /* AccountViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccountViewController.swift; sourceTree = "<group>"; };
+		E00DBDE91D895C5800F24080 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
 		E00DBDEC1D895C5800F24080 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		E00DBDEE1D895C5800F24080 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E00DBDF11D895C5800F24080 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -38,6 +42,10 @@
 		E00DBDF81D895C5800F24080 /* iMathsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = iMathsTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		E00DBDFC1D895C5800F24080 /* iMathsTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = iMathsTests.swift; sourceTree = "<group>"; };
 		E00DBDFE1D895C5800F24080 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E052FCB31D94551600D58089 /* libsqlite3.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libsqlite3.tbd; path = usr/lib/libsqlite3.tbd; sourceTree = SDKROOT; };
+		E0A49FB11D8B10A500B12825 /* OnTheGoViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OnTheGoViewController.swift; sourceTree = "<group>"; };
+		E0A49FB31D8B10F400B12825 /* LeaderboardViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LeaderboardViewController.swift; sourceTree = "<group>"; };
+		E0A49FB51D8B110400B12825 /* SettingsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SettingsViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -45,6 +53,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E052FCB41D94551600D58089 /* libsqlite3.tbd in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -64,6 +73,7 @@
 				E00DBDE41D895C5800F24080 /* iMaths */,
 				E00DBDFB1D895C5800F24080 /* iMathsTests */,
 				E00DBDE31D895C5800F24080 /* Products */,
+				E052FCB21D94551600D58089 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -80,8 +90,11 @@
 			isa = PBXGroup;
 			children = (
 				E00DBDE51D895C5800F24080 /* AppDelegate.swift */,
-				E00DBDE71D895C5800F24080 /* FirstViewController.swift */,
-				E00DBDE91D895C5800F24080 /* SecondViewController.swift */,
+				E00DBDE71D895C5800F24080 /* AccountViewController.swift */,
+				E00DBDE91D895C5800F24080 /* HomeViewController.swift */,
+				E0A49FB11D8B10A500B12825 /* OnTheGoViewController.swift */,
+				E0A49FB31D8B10F400B12825 /* LeaderboardViewController.swift */,
+				E0A49FB51D8B110400B12825 /* SettingsViewController.swift */,
 				E00DBDEB1D895C5800F24080 /* Main.storyboard */,
 				E00DBDEE1D895C5800F24080 /* Assets.xcassets */,
 				E00DBDF01D895C5800F24080 /* LaunchScreen.storyboard */,
@@ -97,6 +110,14 @@
 				E00DBDFE1D895C5800F24080 /* Info.plist */,
 			);
 			path = iMathsTests;
+			sourceTree = "<group>";
+		};
+		E052FCB21D94551600D58089 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				E052FCB31D94551600D58089 /* libsqlite3.tbd */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -144,16 +165,18 @@
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 0730;
-				LastUpgradeCheck = 0730;
+				LastUpgradeCheck = 0800;
 				ORGANIZATIONNAME = "Jack Morrison";
 				TargetAttributes = {
 					E00DBDE11D895C5800F24080 = {
 						CreatedOnToolsVersion = 7.3.1;
 						DevelopmentTeam = Q995L82K7R;
+						LastSwiftMigration = 0800;
 					};
 					E00DBDF71D895C5800F24080 = {
 						CreatedOnToolsVersion = 7.3.1;
 						DevelopmentTeam = Q995L82K7R;
+						LastSwiftMigration = 0800;
 						TestTargetID = E00DBDE11D895C5800F24080;
 					};
 				};
@@ -202,9 +225,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E00DBDEA1D895C5800F24080 /* SecondViewController.swift in Sources */,
+				E00DBDEA1D895C5800F24080 /* HomeViewController.swift in Sources */,
+				E0A49FB21D8B10A500B12825 /* OnTheGoViewController.swift in Sources */,
+				E0A49FB41D8B10F400B12825 /* LeaderboardViewController.swift in Sources */,
 				E00DBDE61D895C5800F24080 /* AppDelegate.swift in Sources */,
-				E00DBDE81D895C5800F24080 /* FirstViewController.swift in Sources */,
+				E00DBDE81D895C5800F24080 /* AccountViewController.swift in Sources */,
+				E0A49FB61D8B110400B12825 /* SettingsViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -260,8 +286,10 @@
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_EMPTY_BODY = YES;
 				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
@@ -283,7 +311,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
@@ -305,8 +333,10 @@
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_EMPTY_BODY = YES;
 				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
@@ -322,9 +352,10 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
 				VALIDATE_PRODUCT = YES;
 			};
 			name = Release;
@@ -333,10 +364,18 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEVELOPMENT_TEAM = Q995L82K7R;
 				INFOPLIST_FILE = iMaths/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.JackMorrison.iMaths;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				SWIFT_OBJC_BRIDGING_HEADER = "iMaths-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 3.0;
 			};
 			name = Debug;
 		};
@@ -344,10 +383,17 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEVELOPMENT_TEAM = Q995L82K7R;
 				INFOPLIST_FILE = iMaths/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.JackMorrison.iMaths;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				SWIFT_OBJC_BRIDGING_HEADER = "iMaths-Bridging-Header.h";
+				SWIFT_VERSION = 3.0;
 			};
 			name = Release;
 		};
@@ -359,6 +405,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.JackMorrison.iMathsTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/iMaths.app/iMaths";
 			};
 			name = Debug;
@@ -371,6 +418,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.JackMorrison.iMathsTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/iMaths.app/iMaths";
 			};
 			name = Release;
@@ -394,6 +442,7 @@
 				E00DBE031D895C5800F24080 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		E00DBE041D895C5800F24080 /* Build configuration list for PBXNativeTarget "iMathsTests" */ = {
 			isa = XCConfigurationList;
@@ -402,6 +451,7 @@
 				E00DBE061D895C5800F24080 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
