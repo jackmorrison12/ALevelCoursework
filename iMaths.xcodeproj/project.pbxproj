@@ -14,7 +14,8 @@
 		E00DBDEF1D895C5800F24080 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E00DBDEE1D895C5800F24080 /* Assets.xcassets */; };
 		E00DBDF21D895C5800F24080 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E00DBDF01D895C5800F24080 /* LaunchScreen.storyboard */; };
 		E00DBDFD1D895C5800F24080 /* iMathsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E00DBDFC1D895C5800F24080 /* iMathsTests.swift */; };
-		E052FCB41D94551600D58089 /* libsqlite3.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = E052FCB31D94551600D58089 /* libsqlite3.tbd */; };
+		E04BAD891E14388500BD3ABE /* questions.swift in Sources */ = {isa = PBXBuildFile; fileRef = E04BAD881E14388500BD3ABE /* questions.swift */; };
+		E06DAADC1E226E4800FF24EE /* LeaderboardTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E06DAADB1E226E4800FF24EE /* LeaderboardTableViewController.swift */; };
 		E0A49FB21D8B10A500B12825 /* OnTheGoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0A49FB11D8B10A500B12825 /* OnTheGoViewController.swift */; };
 		E0A49FB41D8B10F400B12825 /* LeaderboardViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0A49FB31D8B10F400B12825 /* LeaderboardViewController.swift */; };
 		E0A49FB61D8B110400B12825 /* SettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0A49FB51D8B110400B12825 /* SettingsViewController.swift */; };
@@ -42,7 +43,9 @@
 		E00DBDF81D895C5800F24080 /* iMathsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = iMathsTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		E00DBDFC1D895C5800F24080 /* iMathsTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = iMathsTests.swift; sourceTree = "<group>"; };
 		E00DBDFE1D895C5800F24080 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E04BAD881E14388500BD3ABE /* questions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = questions.swift; sourceTree = "<group>"; };
 		E052FCB31D94551600D58089 /* libsqlite3.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libsqlite3.tbd; path = usr/lib/libsqlite3.tbd; sourceTree = SDKROOT; };
+		E06DAADB1E226E4800FF24EE /* LeaderboardTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LeaderboardTableViewController.swift; sourceTree = "<group>"; };
 		E0A49FB11D8B10A500B12825 /* OnTheGoViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OnTheGoViewController.swift; sourceTree = "<group>"; };
 		E0A49FB31D8B10F400B12825 /* LeaderboardViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LeaderboardViewController.swift; sourceTree = "<group>"; };
 		E0A49FB51D8B110400B12825 /* SettingsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SettingsViewController.swift; sourceTree = "<group>"; };
@@ -53,7 +56,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E052FCB41D94551600D58089 /* libsqlite3.tbd in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -94,11 +96,13 @@
 				E00DBDE91D895C5800F24080 /* HomeViewController.swift */,
 				E0A49FB11D8B10A500B12825 /* OnTheGoViewController.swift */,
 				E0A49FB31D8B10F400B12825 /* LeaderboardViewController.swift */,
+				E06DAADB1E226E4800FF24EE /* LeaderboardTableViewController.swift */,
 				E0A49FB51D8B110400B12825 /* SettingsViewController.swift */,
 				E00DBDEB1D895C5800F24080 /* Main.storyboard */,
 				E00DBDEE1D895C5800F24080 /* Assets.xcassets */,
 				E00DBDF01D895C5800F24080 /* LaunchScreen.storyboard */,
 				E00DBDF31D895C5800F24080 /* Info.plist */,
+				E04BAD881E14388500BD3ABE /* questions.swift */,
 			);
 			path = iMaths;
 			sourceTree = "<group>";
@@ -228,7 +232,9 @@
 				E00DBDEA1D895C5800F24080 /* HomeViewController.swift in Sources */,
 				E0A49FB21D8B10A500B12825 /* OnTheGoViewController.swift in Sources */,
 				E0A49FB41D8B10F400B12825 /* LeaderboardViewController.swift in Sources */,
+				E06DAADC1E226E4800FF24EE /* LeaderboardTableViewController.swift in Sources */,
 				E00DBDE61D895C5800F24080 /* AppDelegate.swift in Sources */,
+				E04BAD891E14388500BD3ABE /* questions.swift in Sources */,
 				E00DBDE81D895C5800F24080 /* AccountViewController.swift in Sources */,
 				E0A49FB61D8B110400B12825 /* SettingsViewController.swift in Sources */,
 			);
@@ -366,7 +372,6 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				DEVELOPMENT_TEAM = Q995L82K7R;
 				INFOPLIST_FILE = iMaths/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";

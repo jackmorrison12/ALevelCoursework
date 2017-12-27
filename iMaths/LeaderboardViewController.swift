@@ -1,5 +1,5 @@
 //
-//  SecondViewController.swift
+//  LeaderboardViewController.swift
 //  iMaths
 //
 //  Created by Jack Morrison on 14/09/2016.
